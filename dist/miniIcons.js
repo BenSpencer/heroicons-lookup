@@ -20,7 +20,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.lookup = void 0;
-const Icons = __importStar(require("@heroicons/react/24/outline"));
+const Icons = __importStar(require("@heroicons/react/20/solid"));
 exports.lookup = {
     AcademicCapIcon: Icons.AcademicCapIcon,
     AdjustmentsHorizontalIcon: Icons.AdjustmentsHorizontalIcon,
@@ -315,4 +315,4 @@ exports.lookup = {
     XCircleIcon: Icons.XCircleIcon,
     XMarkIcon: Icons.XMarkIcon,
 };
-//# sourceMappingURL=outlineIcons.js.map
+//# sourceMappingURL=miniIcons.js.map

@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.lookupIcon = void 0;
 const solidIcons_1 = require("./solidIcons");
 const outlineIcons_1 = require("./outlineIcons");
+const miniIcons_1 = require("./miniIcons");
 const types_1 = require("./types");
 /**
  * Lookup an icon by its name. Useful when you want to import dynamically an icon, from a database, for instance.
@@ -16,6 +17,9 @@ const lookupIcon = (iconName, format = "solid") => {
     }
     if (format === "solid") {
         return solidIcons_1.lookup[iconName];
+    }
+    else if (format == "mini") {
+        return miniIcons_1.lookup[iconName];
     }
     return outlineIcons_1.lookup[iconName];
 };
